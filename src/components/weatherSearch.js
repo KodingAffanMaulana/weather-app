@@ -4,7 +4,6 @@ import CustomTextInput from './customTextInput';
 
 const WeatherSearch = ({ searchWeather }) => {
   const [location, setLocation] = useState('');
-  console.log(location);
   return (
     <View>
       <CustomTextInput
